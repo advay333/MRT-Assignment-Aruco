@@ -1,0 +1,25 @@
+[3.655s] Invoking command in '/home/advay/mrt/src/aruco_srvcli': PYTHONPATH=/home/advay/mrt/build/aruco_srvcli/prefix_override:/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_srvcli build --build-base /home/advay/mrt/build/aruco_srvcli/build install --record /home/advay/mrt/build/aruco_srvcli/install.log --single-version-externally-managed
+[5.060s] running egg_info
+[5.065s] writing ../../build/aruco_srvcli/aruco_srvcli.egg-info/PKG-INFO
+[5.069s] writing dependency_links to ../../build/aruco_srvcli/aruco_srvcli.egg-info/dependency_links.txt
+[5.069s] writing entry points to ../../build/aruco_srvcli/aruco_srvcli.egg-info/entry_points.txt
+[5.073s] writing requirements to ../../build/aruco_srvcli/aruco_srvcli.egg-info/requires.txt
+[5.073s] writing top-level names to ../../build/aruco_srvcli/aruco_srvcli.egg-info/top_level.txt
+[5.085s] reading manifest file '../../build/aruco_srvcli/aruco_srvcli.egg-info/SOURCES.txt'
+[5.093s] writing manifest file '../../build/aruco_srvcli/aruco_srvcli.egg-info/SOURCES.txt'
+[5.094s] running build
+[5.095s] running build_py
+[5.097s] copying aruco_srvcli/aruco_client.py -> /home/advay/mrt/build/aruco_srvcli/build/lib/aruco_srvcli
+[5.098s] running install
+[5.102s] running install_lib
+[5.108s] copying /home/advay/mrt/build/aruco_srvcli/build/lib/aruco_srvcli/aruco_client.py -> /home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages/aruco_srvcli
+[5.113s] byte-compiling /home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages/aruco_srvcli/aruco_client.py to aruco_client.cpython-310.pyc
+[5.122s] running install_data
+[5.126s] running install_egg_info
+[5.136s] removing '/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages/aruco_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[5.137s] Copying ../../build/aruco_srvcli/aruco_srvcli.egg-info to /home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages/aruco_srvcli-0.0.0-py3.10.egg-info
+[5.155s] running install_scripts
+[5.266s] Installing client script to /home/advay/mrt/install/aruco_srvcli/lib/aruco_srvcli
+[5.267s] Installing service script to /home/advay/mrt/install/aruco_srvcli/lib/aruco_srvcli
+[5.268s] writing list of installed files to '/home/advay/mrt/build/aruco_srvcli/install.log'
+[5.416s] Invoked command in '/home/advay/mrt/src/aruco_srvcli' returned '0': PYTHONPATH=/home/advay/mrt/build/aruco_srvcli/prefix_override:/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_srvcli build --build-base /home/advay/mrt/build/aruco_srvcli/build install --record /home/advay/mrt/build/aruco_srvcli/install.log --single-version-externally-managed

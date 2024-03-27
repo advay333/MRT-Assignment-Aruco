@@ -1,0 +1,42 @@
+[0.284s] Invoking command in '/home/advay/mrt/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble /usr/bin/cmake /home/advay/mrt/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/advay/mrt/install/tutorial_interfaces
+[0.543s] -- The C compiler identification is GNU 11.4.0
+[0.796s] -- The CXX compiler identification is GNU 11.4.0
+[0.831s] -- Detecting C compiler ABI info
+[1.048s] -- Detecting C compiler ABI info - done
+[1.099s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.113s] -- Detecting C compile features
+[1.125s] -- Detecting C compile features - done
+[1.140s] -- Detecting CXX compiler ABI info
+[1.381s] -- Detecting CXX compiler ABI info - done
+[1.413s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.414s] -- Detecting CXX compile features
+[1.417s] -- Detecting CXX compile features - done
+[1.458s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.085s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.506s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.889s] -- Added test 'lint_cmake' to check CMake code style
+[2.896s] -- Added test 'xmllint' to check XML markup files
+[2.901s] -- Configuring done
+[2.910s] -- Generating done
+[2.914s] -- Build files have been written to: /home/advay/mrt/build/tutorial_interfaces
+[2.926s] Invoked command in '/home/advay/mrt/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble /usr/bin/cmake /home/advay/mrt/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/advay/mrt/install/tutorial_interfaces
+[2.935s] Invoking command in '/home/advay/mrt/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble /usr/bin/cmake --build /home/advay/mrt/build/tutorial_interfaces -- -j4 -l4
+[3.066s] Invoked command in '/home/advay/mrt/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble /usr/bin/cmake --build /home/advay/mrt/build/tutorial_interfaces -- -j4 -l4
+[3.185s] Invoking command in '/home/advay/mrt/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble /usr/bin/cmake --install /home/advay/mrt/build/tutorial_interfaces
+[3.210s] -- Install configuration: ""
+[3.210s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[3.212s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[3.213s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[3.214s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[3.215s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[3.215s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[3.216s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[3.217s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[3.217s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[3.218s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[3.218s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[3.219s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[3.220s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[3.221s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[3.221s] -- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[3.229s] Invoked command in '/home/advay/mrt/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble /usr/bin/cmake --install /home/advay/mrt/build/tutorial_interfaces

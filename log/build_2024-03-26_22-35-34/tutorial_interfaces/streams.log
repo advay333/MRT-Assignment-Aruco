@@ -1,0 +1,56 @@
+[0.291s] Invoking command in '/home/advay/mrt/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble /usr/bin/cmake --build /home/advay/mrt/build/tutorial_interfaces -- -j4 -l4
+[0.356s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.785s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.874s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.882s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.899s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.932s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.983s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.327s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.930s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.930s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[1.931s]   tutorial_interfaces --arguments-file
+[1.931s]   /home/advay/mrt/build/tutorial_interfaces/rosidl_adapter__arguments__tutorial_interfaces.json
+[1.932s]   --output-dir
+[1.932s]   /home/advay/mrt/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces
+[1.933s]   --output-file
+[1.934s]   /home/advay/mrt/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces.idls)
+[1.934s]   returned error code 1:
+[1.934s] 
+[1.935s]   Error processing 'int32[][] data' of 'tutorial_interfaces/Threed':
+[1.935s]   ''int32[]' is an invalid message name.  It should have the pattern
+[1.936s]   '^[A-Z][A-Za-z0-9]*$''
+[1.936s] 
+[1.936s]   Traceback (most recent call last):
+[1.937s] 
+[1.937s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.937s]       return _run_code(code, main_globals, None,
+[1.938s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.938s]       exec(code, run_globals)
+[1.938s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.939s]       sys.exit(main())
+[1.940s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.940s]       abs_idl_file = convert_to_idl(
+[1.941s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.941s]       return convert_msg_to_idl(
+[1.941s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.941s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.942s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[1.942s]       Type(type_string, context_package_name=pkg_name),
+[1.942s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[1.942s]       super(Type, self).__init__(
+[1.943s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[1.943s]       raise InvalidResourceName(
+[1.943s] 
+[1.944s]   rosidl_adapter.parser.InvalidResourceName: 'int32[]' is an invalid message
+[1.944s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.944s] 
+[1.945s] Call Stack (most recent call first):
+[1.945s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.946s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.947s] 
+[1.947s] [0m
+[1.947s] -- Configuring incomplete, errors occurred!
+[1.948s] See also "/home/advay/mrt/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[1.957s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[1.964s] Invoked command in '/home/advay/mrt/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble /usr/bin/cmake --build /home/advay/mrt/build/tutorial_interfaces -- -j4 -l4

@@ -1,0 +1,299 @@
+[0.000000] (-) TimerEvent: {}
+[0.001015] (-) JobUnselected: {'identifier': 'aruco_srvcli'}
+[0.001403] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.001541] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.100377] (-) TimerEvent: {}
+[0.200772] (-) TimerEvent: {}
+[0.302501] (-) TimerEvent: {}
+[0.314382] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.316365] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.318366] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/advay/mrt/build/tutorial_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/advay/mrt/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'advay'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/advay/mrt/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/advay'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1609'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/advay/mrt/install:/home/advay/erc_ws/install:/home/advay/erc_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'advay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'advay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/advay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/advay-Lenovo-IdeaPad-S340-14IWL:@/tmp/.ICE-unix/1015,unix/advay-Lenovo-IdeaPad-S340-14IWL:/tmp/.ICE-unix/1015'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8beddb09_32b2_4631_a194_59c81edef0cd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OP6JL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/advay/mrt/install/tutorial_interfaces:/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/advay/mrt/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages:/home/advay/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/install/task_1/lib/python3.10/site-packages:/home/advay/erc_ws/install/sherlock/lib/python3.10/site-packages:/home/advay/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:/home/advay/erc_ws/install/ep3/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/week1_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/week0_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/task_1/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/sherlock/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/advay/mrt/install/tutorial_interfaces:/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble')]), 'shell': False}
+[0.402697] (-) TimerEvent: {}
+[0.446480] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.488633] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] Built target tutorial_interfaces__cpp\n'}
+[0.498606] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[0.503184] (-) TimerEvent: {}
+[0.543491] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.572369] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.589405] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[0.603347] (-) TimerEvent: {}
+[0.610590] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.667432] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.672217] (tutorial_interfaces) StdoutLine: {'line': b'[ 34%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[0.696402] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.703505] (-) TimerEvent: {}
+[0.725841] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.759247] (tutorial_interfaces) StdoutLine: {'line': b'[ 44%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.787097] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.794282] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.808465] (-) TimerEvent: {}
+[0.832456] (tutorial_interfaces) StdoutLine: {'line': b'[ 65%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.887736] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[0.909250] (-) TimerEvent: {}
+[0.987559] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces\n'}
+[1.009405] (-) TimerEvent: {}
+[1.092516] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__py\n'}
+[1.109559] (-) TimerEvent: {}
+[1.146121] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py\x1b[0m\n'}
+[1.209722] (-) TimerEvent: {}
+[1.219482] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[1.283074] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.288529] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.309875] (-) TimerEvent: {}
+[1.313313] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.404909] (tutorial_interfaces) StdoutLine: {'line': b'[ 91%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.410016] (-) TimerEvent: {}
+[1.420264] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.426167] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.510178] (-) TimerEvent: {}
+[1.610778] (-) TimerEvent: {}
+[1.711380] (-) TimerEvent: {}
+[1.811989] (-) TimerEvent: {}
+[1.912666] (-) TimerEvent: {}
+[2.013340] (-) TimerEvent: {}
+[2.114006] (-) TimerEvent: {}
+[2.214609] (-) TimerEvent: {}
+[2.315244] (-) TimerEvent: {}
+[2.415892] (-) TimerEvent: {}
+[2.516472] (-) TimerEvent: {}
+[2.559594] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.563341] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[2.564086] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[2.564878] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[2.578773] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[2.582405] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[2.616660] (-) TimerEvent: {}
+[2.687994] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[2.716855] (-) TimerEvent: {}
+[2.732078] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[2.817009] (-) TimerEvent: {}
+[2.917754] (-) TimerEvent: {}
+[3.018443] (-) TimerEvent: {}
+[3.084015] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[3.115636] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/advay/mrt/build/tutorial_interfaces'], 'cwd': '/home/advay/mrt/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'advay'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/advay/mrt/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/advay'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1609'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/advay/mrt/install:/home/advay/erc_ws/install:/home/advay/erc_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'advay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'advay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/advay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/advay-Lenovo-IdeaPad-S340-14IWL:@/tmp/.ICE-unix/1015,unix/advay-Lenovo-IdeaPad-S340-14IWL:/tmp/.ICE-unix/1015'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8beddb09_32b2_4631_a194_59c81edef0cd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OP6JL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/advay/mrt/install/tutorial_interfaces:/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/advay/mrt/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages:/home/advay/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/install/task_1/lib/python3.10/site-packages:/home/advay/erc_ws/install/sherlock/lib/python3.10/site-packages:/home/advay/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:/home/advay/erc_ws/install/ep3/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/week1_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/week0_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/task_1/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/sherlock/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/advay/mrt/install/tutorial_interfaces:/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble')]), 'shell': False}
+[3.121156] (-) TimerEvent: {}
+[3.143505] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.144538] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[3.145342] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[3.145921] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[3.146583] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[3.147921] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__struct.h\n'}
+[3.148509] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__functions.h\n'}
+[3.149053] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__functions.c\n'}
+[3.149733] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__functions.h\n'}
+[3.150316] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__functions.c\n'}
+[3.150931] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__struct.h\n'}
+[3.151495] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__type_support.h\n'}
+[3.152144] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__type_support.h\n'}
+[3.152725] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/image.h\n'}
+[3.153315] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/imagesrv.h\n'}
+[3.153829] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[3.154462] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/aruco.h\n'}
+[3.154986] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[3.155549] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__type_support.h\n'}
+[3.156097] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__struct.h\n'}
+[3.158150] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__type_support.h\n'}
+[3.159305] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__functions.h\n'}
+[3.160985] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__functions.h\n'}
+[3.161634] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__struct.h\n'}
+[3.162257] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__functions.c\n'}
+[3.163261] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__functions.c\n'}
+[3.164986] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__type_support.h\n'}
+[3.166570] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__functions.h\n'}
+[3.167136] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__struct.h\n'}
+[3.167785] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__functions.c\n'}
+[3.168560] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/oned.h\n'}
+[3.169489] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.170950] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/threed.h\n'}
+[3.171746] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[3.172728] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[3.173490] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[3.174127] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[3.174729] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[3.175705] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[3.176404] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__rosidl_typesupport_fastrtps_c.h\n'}
+[3.177200] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__rosidl_typesupport_fastrtps_c.h\n'}
+[3.177921] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[3.178554] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.179678] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[3.181200] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__rosidl_typesupport_fastrtps_c.h\n'}
+[3.182240] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__rosidl_typesupport_fastrtps_c.h\n'}
+[3.182781] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__rosidl_typesupport_fastrtps_c.h\n'}
+[3.183302] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.183814] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[3.184409] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[3.184950] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/image.hpp\n'}
+[3.185461] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[3.185981] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__traits.hpp\n'}
+[3.186516] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__struct.hpp\n'}
+[3.187130] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__traits.hpp\n'}
+[3.187716] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__builder.hpp\n'}
+[3.188279] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__builder.hpp\n'}
+[3.188868] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__struct.hpp\n'}
+[3.189404] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/imagesrv.hpp\n'}
+[3.189802] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[3.190756] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[3.191288] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__builder.hpp\n'}
+[3.191749] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__builder.hpp\n'}
+[3.192197] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__traits.hpp\n'}
+[3.192676] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__traits.hpp\n'}
+[3.193130] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__struct.hpp\n'}
+[3.193561] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__struct.hpp\n'}
+[3.193991] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__builder.hpp\n'}
+[3.194671] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__traits.hpp\n'}
+[3.195127] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__struct.hpp\n'}
+[3.195628] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/aruco.hpp\n'}
+[3.196083] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/threed.hpp\n'}
+[3.196586] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/oned.hpp\n'}
+[3.197028] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[3.197472] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[3.197950] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[3.198373] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[3.198831] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.199307] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.199758] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[3.200190] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.200692] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[3.201134] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.201597] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.202039] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[3.202516] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.202934] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.203378] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[3.203819] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[3.204240] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[3.204704] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__type_support.c\n'}
+[3.205145] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__rosidl_typesupport_introspection_c.h\n'}
+[3.205614] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__rosidl_typesupport_introspection_c.h\n'}
+[3.206047] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__type_support.c\n'}
+[3.206495] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[3.206948] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[3.207402] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__rosidl_typesupport_introspection_c.h\n'}
+[3.207857] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__type_support.c\n'}
+[3.208351] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__rosidl_typesupport_introspection_c.h\n'}
+[3.208826] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__type_support.c\n'}
+[3.209262] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__rosidl_typesupport_introspection_c.h\n'}
+[3.209711] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__type_support.c\n'}
+[3.210155] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.210658] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.211129] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[3.211626] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[3.212039] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[3.212553] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[3.213052] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__type_support.cpp\n'}
+[3.213471] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/image__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.213902] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.214396] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/imagesrv__type_support.cpp\n'}
+[3.214829] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[3.215243] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[3.215651] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__type_support.cpp\n'}
+[3.216103] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__type_support.cpp\n'}
+[3.216588] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/oned__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.217042] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/threed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.217499] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__type_support.cpp\n'}
+[3.217919] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/aruco__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.218341] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.218841] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.219272] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[3.219736] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[3.220150] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[3.220615] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.221068] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.221476] (-) TimerEvent: {}
+[3.221917] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.222431] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.222870] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[3.223317] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.223764] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.224208] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv\n'}
+[3.224672] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_image.py\n'}
+[3.225167] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_image_s.c\n'}
+[3.225613] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py\n'}
+[3.226047] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_imagesrv_s.c\n'}
+[3.226493] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_imagesrv.py\n'}
+[3.226966] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.227429] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[3.227865] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.228349] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.228802] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.229251] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[3.229686] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg\n'}
+[3.230128] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_threed.py\n'}
+[3.230573] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_aruco_s.c\n'}
+[3.231062] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_threed_s.c\n'}
+[3.231478] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py\n'}
+[3.231913] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_oned_s.c\n'}
+[3.232357] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_oned.py\n'}
+[3.232845] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_aruco.py\n'}
+[3.321662] (-) TimerEvent: {}
+[3.373966] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[3.374642] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...\n"}
+[3.375148] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...\n"}
+[3.396470] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.397074] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.397671] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.399275] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[3.400355] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/msg/Oned.idl\n'}
+[3.401078] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/msg/Aruco.idl\n'}
+[3.401758] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/srv/Imagesrv.idl\n'}
+[3.402563] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/msg/Oned.msg\n'}
+[3.403341] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/msg/Aruco.msg\n'}
+[3.404082] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/srv/Imagesrv.srv\n'}
+[3.404912] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/srv/Imagesrv_Request.msg\n'}
+[3.405622] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/srv/Imagesrv_Response.msg\n'}
+[3.406017] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[3.406416] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[3.406876] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[3.407447] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.407963] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[3.408464] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[3.408846] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[3.409211] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[3.409568] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[3.409891] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[3.410216] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[3.410539] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[3.410867] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.411335] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.411750] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.412255] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.412795] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.413284] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.413844] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.414216] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.414781] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.415289] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.415751] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.416354] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.417012] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.417521] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.418201] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.418851] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.419210] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.419545] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.419873] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.420193] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.420576] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.420912] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.421260] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.421648] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.421967] (-) TimerEvent: {}
+[3.422326] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[3.422696] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[3.423030] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/advay/mrt/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[3.427167] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[3.522320] (-) TimerEvent: {}
+[3.624143] (-) TimerEvent: {}
+[3.724890] (-) TimerEvent: {}
+[3.825926] (-) TimerEvent: {}
+[3.926979] (-) TimerEvent: {}
+[4.027909] (-) TimerEvent: {}
+[4.128979] (-) TimerEvent: {}
+[4.229780] (-) TimerEvent: {}
+[4.330937] (-) TimerEvent: {}
+[4.432397] (-) TimerEvent: {}
+[4.533070] (-) TimerEvent: {}
+[4.635559] (-) TimerEvent: {}
+[4.738589] (-) TimerEvent: {}
+[4.831129] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[4.833808] (-) EventReactorShutdown: {}

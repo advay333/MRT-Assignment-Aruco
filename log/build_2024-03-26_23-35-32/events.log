@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000666] (aruco_srvcli) JobQueued: {'identifier': 'aruco_srvcli', 'dependencies': OrderedDict()}
+[0.000854] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000937] (aruco_srvcli) JobStarted: {'identifier': 'aruco_srvcli'}
+[0.098546] (-) TimerEvent: {}
+[0.198949] (-) TimerEvent: {}
+[0.269802] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.299127] (-) TimerEvent: {}
+[0.400222] (-) TimerEvent: {}
+[0.500669] (-) TimerEvent: {}
+[0.601220] (-) TimerEvent: {}
+[0.701706] (-) TimerEvent: {}
+[0.802201] (-) TimerEvent: {}
+[0.902723] (-) TimerEvent: {}
+[1.003232] (-) TimerEvent: {}
+[1.103746] (-) TimerEvent: {}
+[1.204251] (-) TimerEvent: {}
+[1.304804] (-) TimerEvent: {}
+[1.338203] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[1.341553] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[1.344890] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/advay/mrt/build/tutorial_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/advay/mrt/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'advay'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/advay/mrt/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/advay'), ('OLDPWD', '/home/advay'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '979'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/advay/mrt/install:/home/advay/erc_ws/install:/home/advay/erc_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'advay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'advay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/advay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/advay-Lenovo-IdeaPad-S340-14IWL:@/tmp/.ICE-unix/935,unix/advay-Lenovo-IdeaPad-S340-14IWL:/tmp/.ICE-unix/935'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d9666f25_568c_47b0_843f_dc5a1f598feb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.13CGL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.476'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/advay/mrt/install/tutorial_interfaces:/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/advay/mrt/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages:/home/advay/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/install/task_1/lib/python3.10/site-packages:/home/advay/erc_ws/install/sherlock/lib/python3.10/site-packages:/home/advay/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:/home/advay/erc_ws/install/ep3/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/week1_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/week0_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/task_1/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/sherlock/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/advay/mrt/install/tutorial_interfaces')]), 'shell': False}
+[1.405010] (-) TimerEvent: {}
+[1.431096] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.505160] (-) TimerEvent: {}
+[1.605808] (-) TimerEvent: {}
+[1.706663] (-) TimerEvent: {}
+[1.807251] (-) TimerEvent: {}
+[1.908097] (-) TimerEvent: {}
+[1.954693] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.008241] (-) TimerEvent: {}
+[2.035074] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.044759] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.065076] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.108399] (-) TimerEvent: {}
+[2.116502] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.187512] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.208557] (-) TimerEvent: {}
+[2.309416] (-) TimerEvent: {}
+[2.410056] (-) TimerEvent: {}
+[2.510731] (-) TimerEvent: {}
+[2.611530] (-) TimerEvent: {}
+[2.625191] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.662995] (tutorial_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.711749] (-) TimerEvent: {}
+[2.728895] (aruco_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/aruco_srvcli', 'build', '--build-base', '/home/advay/mrt/build/aruco_srvcli/build', 'install', '--record', '/home/advay/mrt/build/aruco_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/advay/mrt/src/aruco_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'advay', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/advay/mrt/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/advay', 'OLDPWD': '/home/advay', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '979', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/advay/mrt/install:/home/advay/erc_ws/install:/home/advay/erc_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'advay', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'advay', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/advay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/advay-Lenovo-IdeaPad-S340-14IWL:@/tmp/.ICE-unix/935,unix/advay-Lenovo-IdeaPad-S340-14IWL:/tmp/.ICE-unix/935', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d9666f25_568c_47b0_843f_dc5a1f598feb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.13CGL2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.476', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/advay/mrt/install/tutorial_interfaces:/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/advay/mrt/build/aruco_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/advay/mrt/build/aruco_srvcli/prefix_override:/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages:/home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages:/home/advay/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/install/task_1/lib/python3.10/site-packages:/home/advay/erc_ws/install/sherlock/lib/python3.10/site-packages:/home/advay/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:/home/advay/erc_ws/install/ep3/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/week1_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/week0_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/task_1/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/sherlock/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/advay/mrt/install/tutorial_interfaces'}, 'shell': False}
+[2.811915] (-) TimerEvent: {}
+[2.912647] (-) TimerEvent: {}
+[3.013616] (-) TimerEvent: {}
+[3.114518] (-) TimerEvent: {}
+[3.215203] (-) TimerEvent: {}
+[3.315890] (-) TimerEvent: {}
+[3.416573] (-) TimerEvent: {}
+[3.517363] (-) TimerEvent: {}
+[3.619771] (-) TimerEvent: {}
+[3.721282] (-) TimerEvent: {}
+[3.822291] (-) TimerEvent: {}
+[3.829453] (aruco_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[3.832235] (aruco_srvcli) StdoutLine: {'line': b'writing ../../build/aruco_srvcli/aruco_srvcli.egg-info/PKG-INFO\n'}
+[3.833967] (aruco_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/aruco_srvcli/aruco_srvcli.egg-info/dependency_links.txt\n'}
+[3.834689] (aruco_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/aruco_srvcli/aruco_srvcli.egg-info/entry_points.txt\n'}
+[3.835537] (aruco_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/aruco_srvcli/aruco_srvcli.egg-info/requires.txt\n'}
+[3.836010] (aruco_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/aruco_srvcli/aruco_srvcli.egg-info/top_level.txt\n'}
+[3.837706] (tutorial_interfaces) StderrLine: {'line': b"Error parsing '/home/advay/mrt/src/tutorial_interfaces/package.xml':\n"}
+[3.843403] (aruco_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/aruco_srvcli/aruco_srvcli.egg-info/SOURCES.txt'\n"}
+[3.847353] (aruco_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/aruco_srvcli/aruco_srvcli.egg-info/SOURCES.txt'\n"}
+[3.848382] (aruco_srvcli) StdoutLine: {'line': b'running build\n'}
+[3.855556] (aruco_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[3.856418] (aruco_srvcli) StdoutLine: {'line': b'running install\n'}
+[3.860547] (aruco_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[3.864406] (aruco_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[3.866860] (aruco_srvcli) StdoutLine: {'line': b'copying package.xml -> /home/advay/mrt/install/aruco_srvcli/share/aruco_srvcli\n'}
+[3.867748] (aruco_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.876236] (aruco_srvcli) StdoutLine: {'line': b"removing '/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages/aruco_srvcli-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.877615] (aruco_srvcli) StdoutLine: {'line': b'Copying ../../build/aruco_srvcli/aruco_srvcli.egg-info to /home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages/aruco_srvcli-0.0.0-py3.10.egg-info\n'}
+[3.881428] (aruco_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[3.922479] (-) TimerEvent: {}
+[3.967767] (aruco_srvcli) StdoutLine: {'line': b'Installing client script to /home/advay/mrt/install/aruco_srvcli/lib/aruco_srvcli\n'}
+[3.968728] (aruco_srvcli) StdoutLine: {'line': b'Installing service script to /home/advay/mrt/install/aruco_srvcli/lib/aruco_srvcli\n'}
+[3.970177] (aruco_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/advay/mrt/build/aruco_srvcli/install.log'\n"}
+[4.022685] (-) TimerEvent: {}
+[4.056819] (tutorial_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.057994] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[4.059102] (tutorial_interfaces) StderrLine: {'line': b'    main()\n'}
+[4.059763] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[4.060409] (tutorial_interfaces) StderrLine: {'line': b'    raise e\n'}
+[4.061117] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[4.061790] (tutorial_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[4.062424] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[4.063071] (tutorial_interfaces) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[4.063752] (tutorial_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/advay/mrt/src/tutorial_interfaces/package.xml':\n"}
+[4.064419] (tutorial_interfaces) StderrLine: {'line': b'Error(s):\n'}
+[4.065104] (tutorial_interfaces) StderrLine: {'line': b'- The manifest of package "tutorial_interfaces" (with format version 3) must not contain the following tags: run_depend\n'}
+[4.065786] (tutorial_interfaces) StderrLine: {'line': b'- Please replace <run_depend> tags with <exec_depend> tags.\n'}
+[4.086851] (aruco_srvcli) CommandEnded: {'returncode': 0}
+[4.123512] (-) TimerEvent: {}
+[4.137270] (tutorial_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[4.138975] (tutorial_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10\n'}
+[4.140207] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[4.141215] (tutorial_interfaces) StderrLine: {'line': b'  /home/advay/mrt/src/tutorial_interfaces/package.xml\n'}
+[4.142493] (tutorial_interfaces) StderrLine: {'line': b'  /home/advay/mrt/build/tutorial_interfaces/ament_cmake_core/package.cmake)\n'}
+[4.143533] (tutorial_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[4.145001] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.146354] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[4.148982] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[4.150025] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[4.151549] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[4.152046] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[4.152476] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.153017] (tutorial_interfaces) StdoutLine: {'line': b'See also "/home/advay/mrt/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[4.166777] (tutorial_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:1395: cmake_check_build_system] Error 1\n'}
+[4.224787] (-) TimerEvent: {}
+[4.325930] (-) TimerEvent: {}
+[4.381048] (aruco_srvcli) JobEnded: {'identifier': 'aruco_srvcli', 'rc': 0}
+[4.384889] (tutorial_interfaces) CommandEnded: {'returncode': 2}
+[4.386875] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 2}
+[4.396084] (-) EventReactorShutdown: {}

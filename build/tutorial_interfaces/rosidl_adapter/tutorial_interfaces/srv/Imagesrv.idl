@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/Imagesrv.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module tutorial_interfaces {
+  module srv {
+    struct Imagesrv_Request {
+      sensor_msgs::msg::Image image;
+    };
+    struct Imagesrv_Response {
+      sequence<float> corners;
+
+      sequence<float> ids;
+    };
+  };
+};

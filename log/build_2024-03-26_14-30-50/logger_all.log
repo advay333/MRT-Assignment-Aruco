@@ -1,0 +1,129 @@
+[2.668s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'aruco_srvcli']
+[2.668s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['aruco_srvcli'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6204ecb130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6204ecb520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6204ecb520>>)
+[2.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.784s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/advay/mrt'
+[2.784s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.809s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.810s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.810s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.810s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.810s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_srvcli) by extension 'ignore'
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_srvcli) by extension 'ignore_ament_install'
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_srvcli) by extensions ['colcon_pkg']
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_srvcli) by extension 'colcon_pkg'
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_srvcli) by extensions ['colcon_meta']
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_srvcli) by extension 'colcon_meta'
+[2.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_srvcli) by extensions ['ros']
+[2.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_srvcli) by extension 'ros'
+[2.818s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_srvcli' with type 'ros.ament_python' and name 'aruco_srvcli'
+[2.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.123s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/advay/mrt/install
+[3.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/advay/erc_ws/install
+[3.224s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/advay/erc_ws/src/install
+[3.266s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 309 installed packages in /opt/ros/humble
+[3.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.521s] Level 5:colcon.colcon_core.verb:set package 'aruco_srvcli' build argument 'cmake_args' from command line to 'None'
+[3.521s] Level 5:colcon.colcon_core.verb:set package 'aruco_srvcli' build argument 'cmake_target' from command line to 'None'
+[3.521s] Level 5:colcon.colcon_core.verb:set package 'aruco_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.522s] Level 5:colcon.colcon_core.verb:set package 'aruco_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[3.522s] Level 5:colcon.colcon_core.verb:set package 'aruco_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[3.522s] Level 5:colcon.colcon_core.verb:set package 'aruco_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[3.522s] Level 5:colcon.colcon_core.verb:set package 'aruco_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[3.522s] Level 5:colcon.colcon_core.verb:set package 'aruco_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[3.522s] Level 5:colcon.colcon_core.verb:set package 'aruco_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.522s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/advay/mrt/build/aruco_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/advay/mrt/install/aruco_srvcli', 'merge_install': False, 'path': '/home/advay/mrt/src/aruco_srvcli', 'symlink_install': False, 'test_result_base': None}
+[3.558s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.597s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/advay/mrt/src/aruco_srvcli' with build type 'ament_python'
+[3.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_srvcli', 'ament_prefix_path')
+[3.642s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/advay/mrt/install/aruco_srvcli/share/aruco_srvcli/hook/ament_prefix_path.ps1'
+[3.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/advay/mrt/install/aruco_srvcli/share/aruco_srvcli/hook/ament_prefix_path.dsv'
+[3.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/advay/mrt/install/aruco_srvcli/share/aruco_srvcli/hook/ament_prefix_path.sh'
+[3.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.779s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/advay/mrt/src/aruco_srvcli'
+[4.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/advay/mrt/src/aruco_srvcli': PYTHONPATH=/home/advay/mrt/build/aruco_srvcli/prefix_override:/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_srvcli build --build-base /home/advay/mrt/build/aruco_srvcli/build install --record /home/advay/mrt/build/aruco_srvcli/install.log --single-version-externally-managed
+[7.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/advay/mrt/src/aruco_srvcli' returned '0': PYTHONPATH=/home/advay/mrt/build/aruco_srvcli/prefix_override:/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_srvcli build --build-base /home/advay/mrt/build/aruco_srvcli/build install --record /home/advay/mrt/build/aruco_srvcli/install.log --single-version-externally-managed
+[7.825s] Level 1:colcon.colcon_core.environment:checking '/home/advay/mrt/install/aruco_srvcli' for CMake module files
+[7.826s] Level 1:colcon.colcon_core.environment:checking '/home/advay/mrt/install/aruco_srvcli' for CMake config files
+[7.828s] Level 1:colcon.colcon_core.environment:checking '/home/advay/mrt/install/aruco_srvcli/lib'
+[7.829s] Level 1:colcon.colcon_core.environment:checking '/home/advay/mrt/install/aruco_srvcli/bin'
+[7.829s] Level 1:colcon.colcon_core.environment:checking '/home/advay/mrt/install/aruco_srvcli/lib/pkgconfig/aruco_srvcli.pc'
+[7.830s] Level 1:colcon.colcon_core.environment:checking '/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages'
+[7.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_srvcli', 'pythonpath')
+[7.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/advay/mrt/install/aruco_srvcli/share/aruco_srvcli/hook/pythonpath.ps1'
+[7.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/advay/mrt/install/aruco_srvcli/share/aruco_srvcli/hook/pythonpath.dsv'
+[7.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/advay/mrt/install/aruco_srvcli/share/aruco_srvcli/hook/pythonpath.sh'
+[7.906s] Level 1:colcon.colcon_core.environment:checking '/home/advay/mrt/install/aruco_srvcli/bin'
+[7.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_srvcli)
+[7.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/advay/mrt/install/aruco_srvcli/share/aruco_srvcli/package.ps1'
+[7.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/advay/mrt/install/aruco_srvcli/share/aruco_srvcli/package.dsv'
+[7.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/advay/mrt/install/aruco_srvcli/share/aruco_srvcli/package.sh'
+[7.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/advay/mrt/install/aruco_srvcli/share/aruco_srvcli/package.bash'
+[7.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/advay/mrt/install/aruco_srvcli/share/aruco_srvcli/package.zsh'
+[7.992s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/advay/mrt/install/aruco_srvcli/share/colcon-core/packages/aruco_srvcli)
+[7.993s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.994s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.995s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.995s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.088s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.088s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.088s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.126s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.229s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/advay/mrt/install/local_setup.ps1'
+[8.233s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/advay/mrt/install/_local_setup_util_ps1.py'
+[8.238s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/advay/mrt/install/setup.ps1'
+[8.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/advay/mrt/install/local_setup.sh'
+[8.339s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/advay/mrt/install/_local_setup_util_sh.py'
+[8.341s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/advay/mrt/install/setup.sh'
+[8.416s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/advay/mrt/install/local_setup.bash'
+[8.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/advay/mrt/install/setup.bash'
+[8.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/advay/mrt/install/local_setup.zsh'
+[8.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/advay/mrt/install/setup.zsh'

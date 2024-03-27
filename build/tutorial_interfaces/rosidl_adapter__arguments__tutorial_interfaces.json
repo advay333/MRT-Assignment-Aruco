@@ -1,0 +1,9 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/advay/mrt/src/tutorial_interfaces:msg/Oned.msg",
+    "/home/advay/mrt/src/tutorial_interfaces:msg/Threed.msg",
+    "/home/advay/mrt/src/tutorial_interfaces:msg/Aruco.msg",
+    "/home/advay/mrt/src/tutorial_interfaces:srv/Imagesrv.srv"
+  ]
+}

@@ -1,0 +1,291 @@
+[0.000000] (-) TimerEvent: {}
+[0.000295] (-) JobUnselected: {'identifier': 'aruco_srvcli'}
+[0.000407] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000882] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.098360] (-) TimerEvent: {}
+[0.198852] (-) TimerEvent: {}
+[0.293410] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.295235] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.298003] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/advay/mrt/build/tutorial_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/advay/mrt/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'advay'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/advay/mrt/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/advay'), ('OLDPWD', '/home/advay'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2060'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/advay/mrt/install:/home/advay/erc_ws/install:/home/advay/erc_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'advay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'advay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/advay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/advay-Lenovo-IdeaPad-S340-14IWL:@/tmp/.ICE-unix/935,unix/advay-Lenovo-IdeaPad-S340-14IWL:/tmp/.ICE-unix/935'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/62f4b8dc_a877_4881_b442_87eeb71fc69a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.13CGL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/advay/mrt/install/tutorial_interfaces:/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/advay/mrt/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/advay/mrt/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/advay/mrt/install/aruco_srvcli/lib/python3.10/site-packages:/home/advay/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/install/task_1/lib/python3.10/site-packages:/home/advay/erc_ws/install/sherlock/lib/python3.10/site-packages:/home/advay/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:/home/advay/erc_ws/install/ep3/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/week1_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/week0_tutorials/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/task_1/lib/python3.10/site-packages:/home/advay/erc_ws/src/install/sherlock/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/advay/mrt/install/tutorial_interfaces:/home/advay/mrt/install/aruco_srvcli:/home/advay/erc_ws/install/week1_tutorials:/home/advay/erc_ws/install/week0_tutorials:/home/advay/erc_ws/install/task_1:/home/advay/erc_ws/install/sherlock:/home/advay/erc_ws/install/mrs_hudson:/home/advay/erc_ws/install/ep3:/home/advay/erc_ws/src/install/week1_tutorials:/home/advay/erc_ws/src/install/week0_tutorials:/home/advay/erc_ws/src/install/task_1:/home/advay/erc_ws/src/install/sherlock:/opt/ros/humble')]), 'shell': False}
+[0.301744] (-) TimerEvent: {}
+[0.369991] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.401896] (-) TimerEvent: {}
+[0.502435] (-) TimerEvent: {}
+[0.603054] (-) TimerEvent: {}
+[0.703506] (-) TimerEvent: {}
+[0.803906] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.804277] (-) TimerEvent: {}
+[0.886745] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.895020] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.904439] (-) TimerEvent: {}
+[0.912548] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.947329] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.992561] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.004623] (-) TimerEvent: {}
+[1.105104] (-) TimerEvent: {}
+[1.205671] (-) TimerEvent: {}
+[1.306191] (-) TimerEvent: {}
+[1.320572] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.346389] (tutorial_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.406374] (-) TimerEvent: {}
+[1.506934] (-) TimerEvent: {}
+[1.607486] (-) TimerEvent: {}
+[1.707985] (-) TimerEvent: {}
+[1.808618] (-) TimerEvent: {}
+[1.909338] (-) TimerEvent: {}
+[2.009962] (-) TimerEvent: {}
+[2.110587] (-) TimerEvent: {}
+[2.211237] (-) TimerEvent: {}
+[2.311903] (-) TimerEvent: {}
+[2.412627] (-) TimerEvent: {}
+[2.513290] (-) TimerEvent: {}
+[2.613985] (-) TimerEvent: {}
+[2.658377] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.714189] (-) TimerEvent: {}
+[2.814773] (-) TimerEvent: {}
+[2.915415] (-) TimerEvent: {}
+[3.016168] (-) TimerEvent: {}
+[3.116802] (-) TimerEvent: {}
+[3.217491] (-) TimerEvent: {}
+[3.318184] (-) TimerEvent: {}
+[3.418919] (-) TimerEvent: {}
+[3.519483] (-) TimerEvent: {}
+[3.620078] (-) TimerEvent: {}
+[3.720739] (-) TimerEvent: {}
+[3.821487] (-) TimerEvent: {}
+[3.922111] (-) TimerEvent: {}
+[4.022810] (-) TimerEvent: {}
+[4.123460] (-) TimerEvent: {}
+[4.224154] (-) TimerEvent: {}
+[4.293067] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.324343] (-) TimerEvent: {}
+[4.425085] (-) TimerEvent: {}
+[4.525761] (-) TimerEvent: {}
+[4.626391] (-) TimerEvent: {}
+[4.727072] (-) TimerEvent: {}
+[4.827805] (-) TimerEvent: {}
+[4.928603] (-) TimerEvent: {}
+[4.989801] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.028815] (-) TimerEvent: {}
+[5.088167] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.128991] (-) TimerEvent: {}
+[5.189370] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.189871] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.190160] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.229187] (-) TimerEvent: {}
+[5.329800] (-) TimerEvent: {}
+[5.350659] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.398663] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.405785] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.415988] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.429984] (-) TimerEvent: {}
+[5.530600] (-) TimerEvent: {}
+[5.631272] (-) TimerEvent: {}
+[5.640666] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.657496] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/advay/mrt/build/tutorial_interfaces\n'}
+[5.731484] (-) TimerEvent: {}
+[5.769294] (tutorial_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.842096] (-) TimerEvent: {}
+[5.855499] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.905582] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[5.942278] (-) TimerEvent: {}
+[6.043168] (-) TimerEvent: {}
+[6.145412] (-) TimerEvent: {}
+[6.249047] (-) TimerEvent: {}
+[6.349998] (-) TimerEvent: {}
+[6.450834] (-) TimerEvent: {}
+[6.551576] (-) TimerEvent: {}
+[6.652265] (-) TimerEvent: {}
+[6.752944] (-) TimerEvent: {}
+[6.853662] (-) TimerEvent: {}
+[6.954320] (-) TimerEvent: {}
+[7.055002] (-) TimerEvent: {}
+[7.155675] (-) TimerEvent: {}
+[7.256334] (-) TimerEvent: {}
+[7.357001] (-) TimerEvent: {}
+[7.457690] (-) TimerEvent: {}
+[7.558378] (-) TimerEvent: {}
+[7.659102] (-) TimerEvent: {}
+[7.761880] (-) TimerEvent: {}
+[7.804445] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.809009] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[7.813664] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[7.818300] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[7.838998] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[7.842822] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[7.862055] (-) TimerEvent: {}
+[7.963407] (-) TimerEvent: {}
+[7.996090] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[8.046536] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target tutorial_interfaces__cpp\n'}
+[8.063588] (-) TimerEvent: {}
+[8.105785] (tutorial_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.112423] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.117810] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.163753] (-) TimerEvent: {}
+[8.272381] (-) TimerEvent: {}
+[8.377416] (-) TimerEvent: {}
+[8.478415] (-) TimerEvent: {}
+[8.579173] (-) TimerEvent: {}
+[8.679933] (-) TimerEvent: {}
+[8.780692] (-) TimerEvent: {}
+[8.881384] (-) TimerEvent: {}
+[8.982075] (-) TimerEvent: {}
+[9.082770] (-) TimerEvent: {}
+[9.183454] (-) TimerEvent: {}
+[9.284200] (-) TimerEvent: {}
+[9.385010] (-) TimerEvent: {}
+[9.485794] (-) TimerEvent: {}
+[9.570895] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[9.585943] (-) TimerEvent: {}
+[9.645468] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/threed__functions.c.o\x1b[0m\n'}
+[9.686136] (-) TimerEvent: {}
+[9.787413] (-) TimerEvent: {}
+[9.888763] (-) TimerEvent: {}
+[9.993433] (-) TimerEvent: {}
+[10.005569] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/oned__functions.c.o\x1b[0m\n'}
+[10.093605] (-) TimerEvent: {}
+[10.194991] (-) TimerEvent: {}
+[10.295832] (-) TimerEvent: {}
+[10.397392] (-) TimerEvent: {}
+[10.485422] (tutorial_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/aruco__functions.c.o\x1b[0m\n'}
+[10.501411] (-) TimerEvent: {}
+[10.605392] (-) TimerEvent: {}
+[10.680714] (tutorial_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/aruco__functions.h:19\x1b[m\x1b[K,\n'}
+[10.681563] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/aruco__functions.c:4\x1b[m\x1b[K:\n'}
+[10.682033] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/aruco__struct.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/detail/image__struct.h: No such file or directory\n'}
+[10.682537] (tutorial_interfaces) StderrLine: {'line': b'   22 | #include \x1b[01;31m\x1b[K"sensor_msgs/msg/detail/image__struct.h"\x1b[m\x1b[K\n'}
+[10.683007] (tutorial_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.683421] (tutorial_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[10.692169] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/build.make:240: CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/aruco__functions.c.o] Error 1\n'}
+[10.692788] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/all] Error 2\n'}
+[10.693389] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[10.705562] (-) TimerEvent: {}
+[10.806917] (-) TimerEvent: {}
+[10.854146] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[10.907092] (-) TimerEvent: {}
+[10.977525] (tutorial_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/threed__type_support.cpp.o\x1b[0m\n'}
+[11.000824] (tutorial_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/oned__type_support.cpp.o\x1b[0m\n'}
+[11.007284] (-) TimerEvent: {}
+[11.108999] (-) TimerEvent: {}
+[11.210711] (-) TimerEvent: {}
+[11.312715] (-) TimerEvent: {}
+[11.414189] (-) TimerEvent: {}
+[11.515475] (-) TimerEvent: {}
+[11.616438] (-) TimerEvent: {}
+[11.717314] (-) TimerEvent: {}
+[11.738009] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[11.757725] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[11.817473] (-) TimerEvent: {}
+[11.916511] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/threed__type_support.cpp.o\x1b[0m\n'}
+[11.919898] (-) TimerEvent: {}
+[11.928753] (tutorial_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/threed__type_support.cpp.o\x1b[0m\n'}
+[12.020118] (-) TimerEvent: {}
+[12.122036] (-) TimerEvent: {}
+[12.223407] (-) TimerEvent: {}
+[12.325039] (-) TimerEvent: {}
+[12.426895] (-) TimerEvent: {}
+[12.528341] (-) TimerEvent: {}
+[12.629817] (-) TimerEvent: {}
+[12.731454] (-) TimerEvent: {}
+[12.841920] (-) TimerEvent: {}
+[12.943513] (-) TimerEvent: {}
+[13.045132] (-) TimerEvent: {}
+[13.146798] (-) TimerEvent: {}
+[13.248311] (-) TimerEvent: {}
+[13.349179] (-) TimerEvent: {}
+[13.381443] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/oned__type_support.cpp.o\x1b[0m\n'}
+[13.449434] (-) TimerEvent: {}
+[13.551088] (-) TimerEvent: {}
+[13.652738] (-) TimerEvent: {}
+[13.770927] (-) TimerEvent: {}
+[13.872625] (-) TimerEvent: {}
+[13.874440] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/aruco__type_support.cpp.o\x1b[0m\n'}
+[13.972811] (-) TimerEvent: {}
+[14.074433] (-) TimerEvent: {}
+[14.176057] (-) TimerEvent: {}
+[14.277762] (-) TimerEvent: {}
+[14.379477] (-) TimerEvent: {}
+[14.397183] (tutorial_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_typesupport_cpp/tutorial_interfaces/msg/aruco__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[14.400127] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/msg/detail/aruco__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/detail/image__struct.hpp: No such file or directory\n'}
+[14.400772] (tutorial_interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"sensor_msgs/msg/detail/image__struct.hpp"\x1b[m\x1b[K\n'}
+[14.401323] (tutorial_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.401789] (tutorial_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[14.427601] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/build.make:185: CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/aruco__type_support.cpp.o] Error 1\n'}
+[14.431142] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[14.479676] (-) TimerEvent: {}
+[14.532649] (tutorial_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/aruco__type_support.cpp.o\x1b[0m\n'}
+[14.579892] (-) TimerEvent: {}
+[14.681787] (-) TimerEvent: {}
+[14.783401] (-) TimerEvent: {}
+[14.885376] (-) TimerEvent: {}
+[14.988281] (-) TimerEvent: {}
+[15.028176] (tutorial_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/aruco__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[15.029670] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/msg/detail/aruco__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/detail/image__struct.hpp: No such file or directory\n'}
+[15.030216] (tutorial_interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"sensor_msgs/msg/detail/image__struct.hpp"\x1b[m\x1b[K\n'}
+[15.030642] (tutorial_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.031049] (tutorial_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[15.046110] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:199: CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/aruco__type_support.cpp.o] Error 1\n'}
+[15.050128] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[15.088453] (-) TimerEvent: {}
+[15.100943] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/oned__type_support.cpp.o\x1b[0m\n'}
+[15.188987] (-) TimerEvent: {}
+[15.289922] (-) TimerEvent: {}
+[15.391348] (-) TimerEvent: {}
+[15.492767] (-) TimerEvent: {}
+[15.594223] (-) TimerEvent: {}
+[15.695624] (-) TimerEvent: {}
+[15.797027] (-) TimerEvent: {}
+[15.898691] (-) TimerEvent: {}
+[16.000089] (-) TimerEvent: {}
+[16.102106] (-) TimerEvent: {}
+[16.203597] (tutorial_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/aruco__type_support.cpp.o\x1b[0m\n'}
+[16.207345] (-) TimerEvent: {}
+[16.292516] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/image__type_support.cpp.o\x1b[0m\n'}
+[16.307552] (-) TimerEvent: {}
+[16.409002] (-) TimerEvent: {}
+[16.510609] (-) TimerEvent: {}
+[16.612028] (-) TimerEvent: {}
+[16.713477] (-) TimerEvent: {}
+[16.748992] (tutorial_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/aruco__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[16.755022] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/aruco__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[16.755639] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/msg/detail/aruco__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/detail/image__struct.hpp: No such file or directory\n'}
+[16.756164] (tutorial_interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"sensor_msgs/msg/detail/image__struct.hpp"\x1b[m\x1b[K\n'}
+[16.756656] (tutorial_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.757148] (tutorial_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[16.762142] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:199: CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/aruco__type_support.cpp.o] Error 1\n'}
+[16.762662] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[16.788873] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[16.816113] (-) TimerEvent: {}
+[16.916876] (-) TimerEvent: {}
+[16.997527] (tutorial_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/image__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[16.998226] (tutorial_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/image__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[16.998766] (tutorial_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/advay/mrt/build/tutorial_interfaces/rosidl_generator_cpp/tutorial_interfaces/srv/detail/image__struct.hpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/detail/image__struct.hpp: No such file or directory\n'}
+[16.999250] (tutorial_interfaces) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"sensor_msgs/msg/detail/image__struct.hpp"\x1b[m\x1b[K\n'}
+[16.999684] (tutorial_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.000277] (tutorial_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[17.014332] (tutorial_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:213: CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/image__type_support.cpp.o] Error 1\n'}
+[17.017046] (-) TimerEvent: {}
+[17.117848] (-) TimerEvent: {}
+[17.218647] (-) TimerEvent: {}
+[17.319361] (-) TimerEvent: {}
+[17.420176] (-) TimerEvent: {}
+[17.521000] (-) TimerEvent: {}
+[17.621847] (-) TimerEvent: {}
+[17.722626] (-) TimerEvent: {}
+[17.823423] (-) TimerEvent: {}
+[17.868800] (tutorial_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[17.870572] (tutorial_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.878658] (tutorial_interfaces) CommandEnded: {'returncode': 2}
+[17.923714] (-) TimerEvent: {}
+[18.024542] (-) TimerEvent: {}
+[18.125508] (-) TimerEvent: {}
+[18.226304] (-) TimerEvent: {}
+[18.327338] (-) TimerEvent: {}
+[18.428336] (-) TimerEvent: {}
+[18.529781] (-) TimerEvent: {}
+[18.631065] (-) TimerEvent: {}
+[18.733317] (-) TimerEvent: {}
+[18.836284] (-) TimerEvent: {}
+[18.939407] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 2}
+[18.943028] (-) TimerEvent: {}
+[18.951355] (-) EventReactorShutdown: {}

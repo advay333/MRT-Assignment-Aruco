@@ -1,0 +1,10 @@
+msg/Aruco.idl
+msg/Aruco.msg
+msg/Oned.idl
+msg/Oned.msg
+msg/Threed.idl
+msg/Threed.msg
+srv/Imagesrv.idl
+srv/Imagesrv.srv
+srv/Imagesrv_Request.msg
+srv/Imagesrv_Response.msg

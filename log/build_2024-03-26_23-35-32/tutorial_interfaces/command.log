@@ -1,0 +1,2 @@
+Invoking command in '/home/advay/mrt/build/tutorial_interfaces': /usr/bin/cmake --build /home/advay/mrt/build/tutorial_interfaces -- -j4 -l4
+Invoked command in '/home/advay/mrt/build/tutorial_interfaces' returned '2': /usr/bin/cmake --build /home/advay/mrt/build/tutorial_interfaces -- -j4 -l4

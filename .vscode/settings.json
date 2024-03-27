@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/advay/erc_ws/install/week1_tutorials/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/install/week0_tutorials/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/install/task_1/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/install/sherlock/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/install/mrs_hudson/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/install/ep3/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/src/install/week1_tutorials/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/src/install/week0_tutorials/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/src/install/task_1/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/src/install/sherlock/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/advay/erc_ws/install/week1_tutorials/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/install/week0_tutorials/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/install/task_1/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/install/sherlock/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/install/mrs_hudson/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/install/ep3/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/src/install/week1_tutorials/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/src/install/week0_tutorials/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/src/install/task_1/lib/python3.10/site-packages",
+        "/home/advay/erc_ws/src/install/sherlock/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
