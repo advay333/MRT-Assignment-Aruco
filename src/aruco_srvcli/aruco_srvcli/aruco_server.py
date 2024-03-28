@@ -18,7 +18,7 @@ class Aruco_tag(Node):
         req_im=bridge.imgmsg_to_cv2(request.image)
         detector= cv2.aruco.ArucoDetector(arucoDict,arucoParams)
         (corners, ids, rejected)=detector.detectMarkers(req_im)
-        #cv2.imshow('frame',cv2.aruco.drawDetectedMarkers(req_im,corners,ids))
+        cv2.imshow('frame',cv2.aruco.drawDetectedMarkers(req_im,corners,ids))
         response.corners=[]
         n=0
         while(True):
@@ -29,12 +29,15 @@ class Aruco_tag(Node):
                 n=n+1
             except IndexError:
                 break
-
+        
         response.ids=[]
         try:    
             for i in ids:
                 response.ids.append(int(i))
-            
+            k=0
+            if k==0 and len(response.ids)==4:
+                cv2.imshow('frame',cv2.aruco.drawDetectedMarkers(req_im,corners,ids))
+                k=k+1
         except TypeError:
             response.ids=[]
         finally:
